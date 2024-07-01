@@ -1,9 +1,9 @@
 import streamlit as st
 from langchain_helper import get_qa_chain, create_vector_db
 
-st.title("Codebasics Q&A 🌱")
+st.title("EduTech Q&A 💻")
 
-st.text("Ask a question about codebasics")
+st.text("Shoot your question about EduTech")
 question = st.text_input("Question: ")
 
 if question:
