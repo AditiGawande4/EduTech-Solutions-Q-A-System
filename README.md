@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements an advanced Question and Answer (Q&A) system using Google Palm LLM and Langchain, designed specifically for EduTech Solutions, an online education platform specializing in data science courses and bootcamps.
+This project implements an advanced Question and Answer (Q&A) system using Google's Generative AI capabilities through Langchain, designed specifically for EduTech Solutions, an online education platform specializing in data science courses and bootcamps. The solution significantly reduces staff time spent on answering repetitive questions found in the FAQ dataset. This efficiency allows staff to focus on addressing unique inquiries or other user concerns beyond the scope of set of question in the dataset.
 
 ### Project Highlights
 
@@ -32,8 +32,6 @@ GOOGLE_API_KEY="your_api_key_here"
 streamlit run main.py
 
 - Access the web application in your browser.
-
-- Click on "Create Knowledge Base" to generate a FAQ knowledge base (may take some time).
 
 - Enter your query in the provided box to get instant answers.
 
