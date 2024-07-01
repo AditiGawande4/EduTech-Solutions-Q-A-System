@@ -4,7 +4,7 @@
 
 Click [here](https://edutech-solutions-q-a-system.streamlit.app/) to visit the live project.
 
-
+![Alt Text](./EduTech.jpg)
 ## Overview
 
 This project implements an advanced Question and Answer (Q&A) system using Google's Generative AI capabilities through Langchain, designed specifically for EduTech Solutions, an online education platform specializing in data science courses and bootcamps. The solution significantly reduces staff time spent on answering repetitive questions found in the FAQ dataset. This efficiency allows staff to focus on addressing unique inquiries or other user concerns beyond the scope of set of question in the dataset.
