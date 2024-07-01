@@ -19,7 +19,7 @@ This project implements an advanced Question and Answer (Q&A) system using Googl
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/edutechsolutions/langchain.git
+git clone https://github.com/AditiGawande4/EduTech-Solutions-Q-A-System.git
 
 2. Navigate to the project directory:
 cd EduTech-Solutions-Q-A-System
@@ -27,8 +27,11 @@ cd EduTech-Solutions-Q-A-System
 3. Install dependencies:
 pip install -r requirements.txt
 
-4. Obtain a Google API key from makersuite.google.com and add it to `.env` file:
+4. Create a `.env` file. Obtain a Google API key from makersuite.google.com and add it to `.env` file:
 GOOGLE_API_KEY="your_api_key_here"
+
+5. In the langchain_helper.py file change line 14 to:
+llm = GoogleGenerativeAI(model="models/text-bison-001",google_api_key=os.environ["GOOGLE_API_KEY"], temperature=0)
 
 
 ## Usage
